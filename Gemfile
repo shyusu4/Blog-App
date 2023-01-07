@@ -8,6 +8,11 @@ gem 'devise'
 gem 'devise-jwt'
 
 gem 'cancancan'
+
+gem 'rswag'
+gem 'rswag-api'
+gem 'rswag-ui'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4'
 
@@ -62,6 +67,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rails-controller-testing'
+  gem 'rswag-specs'
 end
 
 group :development do
